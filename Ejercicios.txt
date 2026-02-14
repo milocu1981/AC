@@ -1,0 +1,43 @@
+*****Ejercicio1:
+¿Por qué hay que restar 2 al registro x10? 
+porque es media palabra 16 bits y hay que restar 2 bytes (16bits)
+
+
+x10 meto 20
+x5 meto 0
+x6 meto 1
+
+en x7 sumo 0 + 1
+
+en x5 meto x6
+en x6 el resultado de la suma anterior
+
+Es fibonacci?
+
+
+*****Ejercicio2:
+
+a) ¿Qué valor almacenará exactamente x11, x12 y x13 la primera vez que es asignada en el programa?
+	En x11 se guarda la direccion 0x20000, en x12 se guarda la direccion 0x20014  y en x13 se guarda 0x20008 
+	pasar el 20 a hexagesimal
+b) ¿Cuántas iteraciones ejecuta el bucle?
+	5 iteraciones porque en x2 se guarda un 5
+c) ¿Por qué se incrementa x11, x12 y x13 en 4?
+	para recorer cada palabra de 32 bits (4 byte)
+d) Indique el contenido de la memoria a partir de la dirección etiquetada con z (20 posiciones)
+teniendo en cuenta que RISC-V accede a memoria en orden Little-Endian.
+	A partir del la posicion z: DDCCBBAA 00000000 12000000 23000000 34000000
+
+*****Ejercicio3:
+
+a) ¿Cuántas iteraciones ejecuta el bucle?
+	bucle1:23
+	bucle2:79
+	bucle3:97
+	bucle4:127
+
+
+b) ¿Qué valor es almacenado en memoria y a partir de qué posición de memoria?
+c) Añada 2 instrucciones al programa para que sólo sume a x2 el elemento del vector x si éste es impar
+(utilice la instrucción andi para calcular si es par. Resultado: [x2]=193)
+
