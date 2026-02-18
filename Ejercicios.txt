@@ -38,6 +38,31 @@ a) ¿Cuántas iteraciones ejecuta el bucle?
 
 
 b) ¿Qué valor es almacenado en memoria y a partir de qué posición de memoria?
+
 c) Añada 2 instrucciones al programa para que sólo sume a x2 el elemento del vector x si éste es impar
 (utilice la instrucción andi para calcular si es par. Resultado: [x2]=193)
+
+
+*****Ejercicio17:
+
+
+a)Explique la funcion de cada Multiplexor:
+AluScr: Está en la etapa EX, involucra a instrucciones ALU-R y el MUX elige para el operando B entre inmediato (instrucción) o registro. 
+AluOut: Está en la etapa EX, involucra a instrucciones ALU-R y el MUX elige el tipo de ALU usada, MUL ,DIV, ALU o PC+4 (sato 	incondicional).
+StoreScr: entiendo que esta en la etapa MEM pero no encuentro el MUX.
+Jmp/Br: Esta en la etapa IF, involucra a instrucciones de tipo saltos en general. El multiplexor elige entre la siguiente instrucción o la dirección de salto.
+Jal/R: Esta en la etapa IF
+
+b) Sitúese sobre la instrucción de salto condicional con salto tomado (ésta se produce en la última
+iteración) y analice detenidamente la ruta de datos que activa y los componentes que emplea tanto
+para calcular la dirección de salto como evaluar la condición de salto. Indique a continuación para
+qué se utiliza cada componente y qué diferencias observa respecto al diseño estudiado hasta ahora
+en clase.
+
+
+c) Fíjese a continuación, en la ejecución de las instrucciones de multiplicación y división respecto al
+resto de instrucciones aritméticas. ¿En qué se diferencia su ejecución? ¿Qué problema potencial
+considera que podría producirse teniendo en cuenta que las instrucciones de multiplicación y
+división requieren varios ciclos en su ALU correspondiente?
+
 
