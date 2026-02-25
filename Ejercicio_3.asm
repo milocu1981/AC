@@ -10,8 +10,10 @@ addi x3,x0,100
 la x11, x
 loop: lhu x5,0(x11)
 lhu x6,20(x11)
+andi x20,x5,1   #apartado c
+beq x20,x0,par  #apartado c
 add x2,x2,x5
-add x2,x2,x6
+par:add x2,x2,x6
 addi x11,x11,2
 blt x2,x3,loop
 la x11, res
