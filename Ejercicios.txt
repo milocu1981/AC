@@ -66,3 +66,16 @@ considera que podría producirse teniendo en cuenta que las instrucciones de mul
 división requieren varios ciclos en su ALU correspondiente?
 
 
+
+*****Ejercicio15(a mano):
+
+Número de iteraciones: 4
+Nº instrucciones de Multiplicación: 1
+Nº Instrucciones de División:1
+Nº Instrucciones ALU (excluyendo las anteriores):
+Nº instrucciones de carga (load)
+Nº instrucciones de almacenamiento (store)
+Nº instrucciones de salto
+Nº de instrucciones ejecutadas en total
+
+
